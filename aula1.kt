@@ -7,8 +7,8 @@ fun main() {
  fun main() { 
     println("New chat message from a friend");
 }
-*/
-/* EX4
+
+// EX4
 fun main() {
   
     val item = "Google Chromecast"
@@ -17,8 +17,8 @@ fun main() {
     
     println(offer)
 }
-*/
-/* EX5
+
+// EX5
 fun main() {
     val numberOfAdults = 20
     val numberOfKids = 30
@@ -26,7 +26,7 @@ fun main() {
     println("The total party size is: $total")
 }
 
-EX6
+// EX6
  fun main() {
     val baseSalary = 5000
     val bonusAmount = 1000
@@ -34,7 +34,7 @@ EX6
     println("Congratulations for your bonus! You will receive a total of $totalSalary (additional bonus).")
 }
 
-EX 7.1
+// EX 7.1
 fun main() {
     val firstNumber = 10
     val secondNumber = 5
@@ -42,7 +42,7 @@ fun main() {
     println("$firstNumber + $secondNumber = $result")
 }
 
-EX 7.2 E 7.3 
+// EX 7.2 E 7.3 
 fun main() {
     val firstNumber = 10
     val secondNumber = 5
@@ -66,14 +66,14 @@ fun subtract(a: Int, b:Int): Int{
     return a-b   
 }
 
-EX 8.1
+// EX 8.1
 fun main() {
     val operatingSystem = "Chrome OS"
     val emailId = "sample@gmail.com"
 
     println(displayAlertMessage(operatingSystem, emailId))
 }
-EX 8.2
+// EX 8.2
 fun displayAlertMessage(op: String, em: String):String{
     return "There's a new sign-in request on $op for your Google Account $em."
 }
@@ -93,7 +93,7 @@ fun main() {
     println(displayAlertMessage(operatingSystem3, emailId3))
     println()
 }
-EX 9
+// EX 9
 fun main() {
     val steps = 4000
     val caloriesBurned = pedometerStepsToCalories(steps);
@@ -105,7 +105,7 @@ fun pedometerStepsToCalories(NumberOfSteps: Int): Double {
     val TotalCaloriesBurned = NumberOfSteps * CaloriesBurnedforEachStep
     return TotalCaloriesBurned
 }
-*/
+
 fun main() {
     println("Have I spent more time using my phone today: ${compareTime(300, 250)}")
     println("Have I spent more time using my phone today: ${compareTime(300, 300)}")
@@ -115,3 +115,4 @@ fun main() {
 fun compareTime(timeSpentToday: Int, timeSpentYesterday: Int): Boolean {
     return timeSpentToday > timeSpentYesterday
 }
+*/
